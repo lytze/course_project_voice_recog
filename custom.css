@@ -1,0 +1,61 @@
+.reveal section del {
+    font-size: 85%;
+    font-style: italic;
+    padding-left: 70px;
+    color: #888;
+}
+
+.reveal section del code {
+    font-size: 95%;
+    font-style: normal;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #444;
+}
+
+.reveal section p code {
+    font-size: 83%;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #666;
+}
+
+.reveal section[data-state="section"] del {
+    font-size: 85%;
+    font-style: italic;
+    padding-left: 70px;
+    color: #DEDEDE;
+}
+
+.reveal section pre code {
+	font-size: 19px;
+}
+
+.reveal code {
+    font-family: LetterGothicStd;
+    font-weight: bold;
+}
+
+.reveal table.shtable {
+    border-style: none;
+	font-family: verdana,arial,sans-serif;
+	font-size:19px;
+	border-collapse: collapse;
+	width: 60%;
+}
+.reveal table.shtable th {
+    border-style: none;
+    border-bottom-style: solid;
+    border-color: #96a2b5;
+	border-width: 3px;
+	padding: 8px;
+	background-color: #abc;
+	height: 70;
+}
+.reveal table.shtable td {
+	padding: 3px;
+	border-style: none;
+}
+.reveal table.shtable tbody tr {
+	background-color: #abc;
+}
